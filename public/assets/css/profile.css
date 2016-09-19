@@ -1,0 +1,236 @@
+html {
+	height: 100%;
+	background: url('home_background.png') no-repeat;
+	background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+/*#trendingDiv {
+    border-radius: 5px;
+    background: white;
+    background-color: transparent
+    padding: 20px;
+    width: 55%;
+    height: 75px;
+    margin-top: 13%;
+    opacity: .6;
+    margin-left: 25%;
+}*/
+
+h5{
+	color: #00bbba;
+	margin-bottom: 0;
+    margin-top: 6px;
+}
+
+
+#navBar{
+    background-image: url("../images/nav_background.png");
+    
+    position: absolute;
+    width: 100%;
+    float: right;
+   /* margin-top: 15px;*/
+
+}
+
+#navbarBox{
+/*  width: 1100px;*/
+    
+
+    margin-left:initial;
+    margin-right: initial;
+
+}
+.logo{
+    width: 150px;
+    padding: 9px;
+    margin-left: -10px
+}
+   .navbar-default {
+    border-color: transparent;
+}
+ul{
+    float: right;
+    margin-top: 30px;
+}
+.nav-pills>li.active>a{
+    background-color: #f9891a;
+}
+a {
+    color: #673a03;
+    font-weight: bold;
+
+}
+.cloudDiv{
+    background-image: url("../images/profileCloud.png");
+    background-position: -100% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 110%;
+    width: 1012px;
+    height: 1284px;
+}
+.usrPic{
+    width: 140px;
+    height: 140px;
+    border: 3px solid #00cfd1;
+    border-radius: 9px;
+    vertical-align: top;
+   
+}
+
+
+.rightSide{
+    display: inline-block;
+    width: 270px;
+    margin-left: 10px;
+    line-height: .1px;
+
+
+}
+h3 {
+    display: inline-block;
+    color: #25a0a6;
+    font-weight: bold;
+    margin-top: -5px;
+ 
+}
+.profileInfo {
+    margin-top: 130px;
+    margin-left: -50px;
+    border-bottom: 2px dashed #00d2d3;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+span{
+    color:#f9891a;
+}
+
+.betBox{
+    border: 2px solid #00bbba;
+    border-radius: 15px;
+    margin-left: -314px;
+    line-height: 10px;
+    padding: 10px;
+    font-size: 12px;
+    display: inline-flex;
+    margin-top: 74px;
+    width: 615px;
+    height: initial;
+    margin-bottom: -60px;
+}
+
+.betInfo{
+    width: 75%;
+    margin-top: initial;
+    width: 500px;
+}
+#captain{
+    color:#f9891a;
+    margin-left: 10px;
+}
+
+#betInput{
+    line-height: initial;
+    margin-top: 10px;
+}
+
+.betOwnerPic{
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 1px;
+    margin-right: 8px;
+}
+p {
+    font-size: 15px;
+    color: #492a03;
+    margin-left: 10px;
+    display: inline-table;
+    line-height: initial;
+}
+.btn-default {
+    color: white;
+    background-color: #f9891a;
+    border-color: #00babf;
+    /* float: right; */
+    margin-left: 72%;
+}
+
+.acceptBetButton{
+    border-color: #04a3a3;
+    border: 1px solid #00bbba;
+    border-radius: 5px;
+    background-color: #f9891a;
+    padding: 8px;
+    color: white;
+    float: right;
+    margin-top: inherit;
+    margin-right: -71%;
+}
+
+.declineBetButton{
+    border-color: #04a3a3;
+    border: 1px solid #00bbba;
+    border-radius: 5px;
+    background-color: #f9891a;
+    padding: 8px;
+    color: white;
+    float: right;
+    margin-top: inherit;
+    margin-right: -71%;
+}
+
+h4{
+    color: #00bbba;
+    margin-bottom: 0;
+}
+
+.usrInfo{
+    color: #00bbba;
+    display: -webkit-inline-box;
+
+}
+#noWayMan{
+    margin-left: 20px;
+
+}
+
+#menuTabs{
+float: left;
+   
+}
+
+#userWins{
+    background-color: #67f667;
+}
+#userLooses{
+    background-color: #F35027;
+}
+
+#loserText{
+    color: #f9d11a
+}
+#captainText{
+    color: #f9d01a;
+    margin-left: -1px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    cursor: default;
+    background-color: #00bfbc;
+    border: 1px solid #00d0d2;
+    border-bottom-color: #0ce9eb;
+    color: white;
+}
+.tab-content>.active {
+    display: table-row-group;
+    }
+
+
+

@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+	background: url('landing_packground.png') no-repeat;
+	background-size: cover;
+}
+body{
+	background-color: transparent;
+}
+
+form{
+	/*margin-top: 300px;*/
+}
+
+input{
+	padding:8px;
+	margin-top: 5px;
+}
+button{
+	padding:8px;
+	margin-bottom: 2px;
+	background-color: darkorange;
+	color: yellow;
+	font-family: 'Lato', sans-serif;marg
+}
+h1{
+	font-family: 'Fascinate Inline', cursive;
+	color: #ff7900;
+}
+img{
+	
+}
+.planeDiv{
+	background-image: url("../images/plane.png");
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	transform: translateY(-20%);
+	top: 64%;
+	
+}
+.btn-default {
+    color: white;
+    background-color: #ff7900;
+    border-color: #04a3a3;
+}
+a{
+	color: white;
+}
+
+
+

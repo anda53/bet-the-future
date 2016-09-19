@@ -1,0 +1,325 @@
+html {
+	height: 100%;
+	background: url('home_background.png') no-repeat;
+	background-size: cover;
+}
+body{
+	background-color: transparent;
+}
+
+
+
+.cloudDiv1{
+	background-image: url("../images/cloud2.png");
+    background-position: -100% 0%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 72%;
+    width: 900px;
+    height: 774px;
+}
+#betForm{
+	margin-top: 70px;
+}
+
+.betResForm {
+	float: right;
+
+}
+input{
+	border: 2px solid;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form-control {
+	padding-top:  20px;
+	padding-bottom: 20px;
+	background-color: #ffcb42;
+	color: #613702;
+	font-size: 14px;
+	border: 2px solid #00bbba;
+	border-radius: 9px;
+
+}
+h1{
+	font-family: 'Fascinate Inline', cursive;
+	color: #683b00;
+	letter-spacing: -1px;
+	text-align: center;
+	/*text-shadow: 3px 2px #f9891a; */
+	font-size: 38px;
+}
+label{
+	font-size: 15px;
+	color: #00bbba;
+	font-weight: bold;
+}
+.btn-default {
+    color: white;
+    background-color: #f9891a;
+    border-color: #00babf;
+    /* float: right; */
+    margin-left: 72%;
+}
+.cloudDiv2{
+	background-image: url("../images/cloud2.png");
+    background-position: -100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 183%;
+    width: 1012px;
+    height: 984px;
+}
+
+
+#cloud2{
+	margin-top:7%;
+
+}
+    
+li{
+	color: #ffcb42;
+}
+#betDiv {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    border: 2px solid #00bbba;
+	border-radius: 5px;
+	margin-left: -140px;
+}
+#navBar{
+	background-image: url("../images/nav_background.png");
+	position: absolute;
+	width: 100%;
+	float: right;
+
+}
+
+#navbarBox{
+    margin-left:initial;
+    margin-right: initial;
+
+}
+.logo{
+	width: 150px;
+	padding: 9px;
+	margin-left: -67%;
+}
+ .navbar-default {
+    border-color: transparent;
+}
+ul{
+	float: right;
+	margin-top: 30px;
+}
+.nav-pills>li.active>a{
+	background-color: #f9891a;
+}
+a {
+    color: #673a03;
+    font-weight: bold;
+
+}
+
+#betContainer{
+	width: 600px;
+	height:500px;
+
+}
+.betBox{
+	border: 2px solid #00bbba;
+	border-radius: 15px;
+	margin-left: -200px;
+	line-height: 10px;
+	padding: 10px;
+	font-size: 12px;
+	display: inline-flex;
+	margin-top: 10px;
+	width: 611px;
+	height: initial;
+	
+
+}
+.usrPic{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 2px solid #00bbba;
+
+}
+
+#friendsDiv{
+	width: 442px;
+    height: 120px;
+    overflow-y: scroll;
+    white-space: nowrap;
+    margin-left: -20px;
+    display: inline-flex;
+    
+}
+
+p {
+	font-size: 15px;
+	color: #683b00;
+	margin-left: 10px;
+	display: inline-table;
+	line-height: initial;
+}
+
+
+	
+}
+.friendContainer{
+	display: inline-block;
+}
+
+
+#doThisButton{
+	margin-left: 133px;
+	background-color: #f9891a
+	
+}
+.usrInfo{
+	color: #00bbba;
+	display: inline-block;
+
+}
+.friendName{
+	font-weight: bold;
+	font-size: 14px;
+	color: #00bbba;
+	
+}	
+
+section{
+	font-size: 36px;
+	font-family: 'Fascinate Inline', cursive;
+	color: #683b00;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 16px;
+    color: #f9891a;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+h5{
+	color: #ffcb42;
+	font-size: 16px;
+    color: #683b00;
+    font-weight: bold;
+    font-family: inherit;
+    margin-left: 10px;
+    display: inline-table;
+
+    
+
+
+}
+.betInfo{
+	width: 75%;
+	margin-top: initial;
+
+
+}
+span{
+	color:#08a3a0;
+	
+
+}
+.referee{
+	display: inline-flex;
+	width: 500px;
+}
+#captain{
+	color:#f9891a;
+}
+
+.betOwnerPic{
+	width: 128px;
+	height: 128px;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 8px;
+}
+#betInput{
+	line-height: initial;
+
+}
+
+#searchUsers{
+	margin-left: 33%;
+	margin-top: 2%;
+	display: inline-flex;
+
+}
+
+}
+.prediction{
+	width: 90%;
+}
+#submit{
+	background-color: #00babd;
+    border-color: #e0efef;
+    margin-left: 0;
+}
+#menuTabs{
+	display: -webkit-inline-box;
+	margin-left: -91px;
+	color: #f5f5f5;
+   
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	cursor: default;
+	background-color: #00bfbc;
+	border: 1px solid #00d0d2;
+	border-bottom-color: #0ce9eb;
+	color: white;
+}
+
+#ownerBet{
+	background-color: #ffcb42;
+}
+#ownerPending{
+	background-color: turquoise;
+}
+#joinedBet{
+	background-color: #ffeb80;
+}
+#activeBets{
+	/*background-color: #ffeb80;*/
+}
+#joinedPending{
+	background-color: #06e1e1;
+	color: #f9891a;
+
+}
+#refPending{
+	background-color: #683b00;
+}
+#refText{
+	color: #ffcb42;
+}
+#refBox{
+	background-color: #683b00;
+}
+#captainText{
+	color:#ffcb42;
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+
+html {
+	height: 100%;
+	background: url('home_background.png') no-repeat;
+	background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+
+form{
+
+	z-index: 2;
+	width: 500px;
+	margin-top: 4%;
+	margin-left: 8%;
+}
+
+input{
+	border: 2px solid;
+    border-radius: 15px;
+    padding: 25px;
+
+}
+
+.form-control {
+	padding-top:  23px;
+	padding-bottom: 23px;
+	background-color: #ffcb42;
+    color: #683b00;;
+	font-size: 18px;
+	border: 2px solid #00bbba;
+	border-radius: 11px;
+	margin-left: 50%;
+
+}
+
+.cloudDiv1{
+	background-image: url("../images/cloud.png");
+	background-position: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	transform: translateX(20%);
+	top:25%;
+	width: 1000px;
+	height: 800px;
+}
+h1{
+	font-family: 'Fascinate Inline', cursive;
+	color: #683b00;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-right: -64%;
+}
+label{
+	font-size: 15px;
+	color: #00bbba;
+	font-weight: bold;
+	margin-left: 50%;
+}
+.btn-default {
+    color: white;
+    background-color: #00babf;
+    border-color: #04a3a3;
+    margin-top: 10px;
+
+  }
+
+
+#navBar{
+	background-image: url("../images/nav_background.png");
+	
+	position: absolute;
+	width: 100%;
+	float: right;
+    /*margin-top: 15px;*/
+
+}
+
+#navbarBox{
+/*	width: 1100px;*/
+    
+
+    margin-left:initial;
+    margin-right: initial;
+
+}
+.logo{
+	width: 150px;
+	padding: 9px;
+	margin-left: -10px
+}
+ .navbar-default {
+    border-color: transparent;
+}
+ul{
+	float: right;
+	margin-top: 30px;
+}
+.nav-pills>li.active>a{
+	background-color: #f9891a;
+}
+a {
+    color: #673a03;
+    font-weight: bold;
+
+}

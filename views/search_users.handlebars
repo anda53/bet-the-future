@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="../assets/css/search_usersStyle.css">
+<div class="container" id="navbarBox">
+	<div class="row">
+		<nav class="navbar navbar-default navbar-static-top" id="navBar">
+  			<div class="container">
+  			<a href="/home">
+          		<img class= "logo" src="../assets/images/logo.png" alt="logo">
+			</a>
+				 <ul class="nav nav-pills" id="navPills">
+
+					  <li role="presentation" class="active"><a href="/home">Home</a></li>
+					  <li role="presentation"><a href="/profile">Profile</a></li>
+					  <li role="presentation"><a href="/logOut">Log Out</a></li>
+
+				</ul> 
+  			</div>
+		</nav>
+	</div>
+</div>
+
+	<div class="row">
+
+		<div class="col-md-4">	
+		</div>
+		<div class="col-md-8 cloudDiv">
+		
+			<h2 class="getFriends">Get Some Friends</h2>
+	
+				{{#each UserName}}
+					
+						{{>usersPartial this}}
+				
+
+				
+				{{/each}}
+			</div>
+		</div>
+	</div>
+	</div>
+
+	
+		
+	
+
+
+<!-- <div class="row">
+	<div class= "col-md-4"></div>
+		<div class ="col-md-8" id="searchResults">
+			<h3>Get Some Friends</h3>
+			{{#each UserName}}
+				<div>
+					<h1>{{FirstName}} {{LastName}}</h1>
+					<h2>{{UserName}}</h2>
+				</div>
+
+				<form  method="POST" action="/add-friend/{{id}}" class="navbar-form navbar-left" role="search">
+					<button type="submit" class="btn btn-default" id={{id}}>Add Friend</button>
+				</form>
+			{{/each}}
+		</div>
+</div> -->

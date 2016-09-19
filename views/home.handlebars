@@ -1,0 +1,120 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/homeStyle.css">
+
+<div class="container" id="navbarBox">
+	<div class="row">
+		<nav class="navbar navbar-default navbar-static-top" id="navBar">
+			<div class="container">
+				<a href="/home">
+					<img class= "logo" src="assets/images/logo.png" alt="logo">
+				</a>
+
+				<ul class="nav nav-pills" id="navPills">
+					<li role="presentation" class="active"><a href="/home">Home</a></li>
+					<li role="presentation"><a href="/profile">Profile</a></li>
+					<li role="presentation"><a href="/logOut">Log Out</a></li>
+				</ul> 
+				<form  method="POST" action="/search-users" class="navbar-form navbar-left" role="search" id = "searchUsers">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search for Friends!" name= "userName">
+					</div>
+					<button type="submit" class="btn btn-default" id="submit">Submit</button>
+				</form>
+
+			</div>
+
+		</nav>
+	</div>
+</div>
+
+<div class='row'>
+	<div class="col-md-offset-3 col-md-9 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-6 cloudDiv1" id='makeBet'>
+		<div class="row">
+			<div class="col-md-offset-3 col-md-7 col-sm-offset-4 col-sm-5 co-lg-7">
+
+			<form method="POST" action="/create-bet" class="form-horizontal" id="betForm">
+				<div class="form-group">
+					<div class="col-md-10">
+						<h1>Make A Bet</h1>
+						<label for="predition">Prediction:</label>
+						<input type="text" name="prediction" class="form-control" id="inputPrediction" >
+
+						<label for="predition">Challenge:</label>
+						<input type="text" name="challenge" class="form-control" id="inputPrediction" >
+
+						<label for="referee">Referee:</label>
+						<select class="form-control" name="referee" id="inputReferee">
+							{{#each friends}}
+							<option>{{UserName}}</option>
+							{{/each}}
+						</select>
+
+						<label for="price">Wager:</label>
+						<input type="text" name="wager" class="form-control" id="inputCash">
+
+						<label for="judgementDay">Judgement Day:</label>
+						<input name="judgementDay" type="date" class="form-control" id="inputJudgementDay">
+						<h2>Friends</h2>
+						<div class="col-md-5" id="friendsDiv">
+							{{#each friends}}
+							{{>user_friends this}}
+							{{/each}}
+						</div>
+
+						<button type="submit" class="btn btn-default" id="doThisButton">Let's Do This!</button>
+					</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class='row'>
+	<div class="col-md-offset-1 col-md-9 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-7 cloudDiv2" id='takeBet'>
+		<div class="row">
+			<div id="cloud2" class="col-md-offset-4 col-md-7 col-sm-offset-4 col-sm-3 co-lg-7">
+				<div class="tabConatiner">
+					<div class="row">
+						<div id="cloud2" class="col-md-offset-1 col-md-7 col-sm-offset-3 col-sm-10 col-lg-6">
+							<section>All Bets</section>
+							<ul class="nav nav-tabs" id="menuTabs">
+								<li class="active"><a href="#activeBets" data-toggle="tab">Active</a></li>
+								<li><a href="#pendingBets" data-toggle="tab">Pending</a></li>
+								<li><a href="#refBets" data-toggle="tab">You're Reffin</a></li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane active" id="activeBets">
+									{{#each joinedBet}}
+										{{> joined_bet_info this}}
+									{{/each}}
+									{{#each userOwnsBets}}
+										{{> owner_bet_info this}}
+									{{/each}}
+								</div>
+								<div class="tab-pane" id="pendingBets">
+									{{#each joinPending}}
+										{{> join_pending_bet_info this}}
+									{{/each}}
+									{{#each ownerPending}}
+										{{> owner_pending_bet_info this}}
+									{{/each}}
+								</div>
+								<div class="tab-pane" id="refBets">
+									{{#each betReferee}}
+										{{> ref_bet_info this}}
+									{{/each}}
+									{{#each refPending}}
+										{{> ref_pending_bet_info this}}
+									{{/each}}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,76 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/profile.css">
+<div class="container" id="navbarBox">
+	<div class="row">
+		<nav class="navbar navbar-default navbar-static-top" id="navBar">
+  			<div class="container">
+  			<a href="/home">
+          <img class= "logo" src="assets/images/logo.png" alt="logo">
+			 </a>
+			 <ul class="nav nav-pills" id="navPills">
+			  <li role="presentation" class="active"><a href="/home">Home</a></li>
+			  <li role="presentation"><a href="/profile">Profile</a></li>
+			  <li role="presentation"><a href="/logOut">Log Out</a></li>
+			</ul> 
+  			</div>
+		</nav>
+	</div>
+</div>
+	
+
+<div class='row'>
+	<div class=" col-md-offset-2 col-md-7 col-sm-offset-1 col-sm-10 col-lg-offset-2 col-lg-6 cloudDiv" id='profileCloud'>
+		<div class="row">
+			<div class="col-md-offset-4 col-md-8">
+				<div class="profileInfo">
+					<img class="usrPic" src="{{user.ImageLink}}">
+					<div class="rightSide">
+						<h3 class="firstName">{{user.FirstName}}</h3>
+						<h3 class="lastName">{{user.LastName}}</h3><br>
+
+						<h5 class="betsMade"><strong><span>Bets Made:</span></strong>148</h5><br>
+						<h5 class="betsMade"><strong><span>Bets Accepted:</span></strong> 37</h5><br>
+						<h5 class="betsMade"><strong><span>Winning: </span></strong>58%</h5><br>
+						<h5 class="betsMade"><strong><span>Lost: </span></strong>32%</h5><br>
+						<h5 class="betsMade"><strong><span>Approval Rating: </span></strong>100%</h5>
+					</div><br>
+				</div>
+
+
+
+				<div class="profileBets">
+					<ul class="nav nav-tabs" id="menuTabs">
+						<li class="active"><a href="#activeBets" data-toggle="tab">Bets Won</a></li>
+						<li><a href="#pendingBets" data-toggle="tab">Best Lost</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div class="tab-pane active" id="activeBets">
+							{{#each betsWon}}
+								{{> user_wins this}}
+							{{/each}}
+						</div>
+
+						<div class="tab-pane" id="pendingBets">
+							{{#each betsLost}}
+								{{> user_losses this}}
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+
+.cloudDiv1{
+	background-image: url("../images/cloud.png");
+	background-position: -30% -5%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	transform: translateX(1%);
+	top:25%;
+	width: 1000px;
+	height: 800px;
+	
+}
+
+html {
+	height: 100%;
+	background: url('home_background.png') no-repeat;
+	background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+
+.searchBar{
+	margin-top: 10%;
+	margin-left: 34%;
+
+}
+
+#friendSearchDiv{
+	width:30%;
+	height:50%;
+	background-color: #ffcb42;
+	border-radius: 5px;
+	color: #613702;
+	border: 2px solid #00bbba;
+	border-radius: 11px;
+	z-index: 1;
+	margin-top: 23%;
+	margin-left: 2.5%;
+
+
+}
+h2{
+	font-family: 'Fascinate Inline', cursive;
+	color: #683b00;
+	letter-spacing: -1px;
+	text-align: center;
+
+
+}
+
+#getFriendButton{
+	background-color: #00bbba;
+
+
+}
+#searchFriendInput{
+	background-color: white;
+	border: 2px solid #00bbba;
+	border-radius: 9px;
+	margin-top: 50%;
+	
+
+
+}
+#navBar{
+	background-image: url("../images/nav_background.png");
+	
+	position: absolute;
+	width: 100%;
+	float: right;
+    margin-top: 15px;
+
+}
+#navbarBox{
+/*	width: 1100px;*/
+    
+
+    margin-left:initial;
+    margin-right: initial;
+
+}
+.logo{
+	width: 150px;
+	padding: 9px;
+	margin-left: -10px
+}
+   .navbar-default {
+    border-color: transparent;
+}
+ul{
+	float: right;
+	margin-top: 30px;
+}
+.nav-pills>li.active>a{
+	background-color: #f9891a;
+}
+a {
+    color: #673a03;
+    font-weight: bold;
+
+}
+
+
+
+
+

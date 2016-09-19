@@ -1,0 +1,33 @@
+<div class="betBox" id="refBox">
+	<div class="betOwnerPic">
+		<img class="betOwnerPic" src="{{adminImageLink}}">
+	</div>
+	<div class="betInfo">
+		<div class="usrInfo">
+				<h5 id="captainText" class="usrName"><strong><span id="captain">CAPTAIN: </span></strong>{{adminPlayer}}</h5>
+
+				<form method="POST" action="/bet-winner/{{id}}" class="form-horizontal betResForm">
+					<button type="submit" value='{{adminPlayer}}' name='betWinner' class="btn btn-default">{{adminPlayer}}</button>
+				</form>
+
+				<form method="POST" action="/bet-winner/{{id}}" class="form-horizontal betResForm">
+					<button type="submit" value='{{secondPlayer}}' name='betWinner' class="btn btn-default">{{secondPlayer}}</button>
+				</form>
+		</div>
+
+		<div class="prediction">
+			<p id="refText"><strong><span>{{adminPlayer}}'s Prediction: </span></strong>{{prediction}}</p>
+			<p id="refText"><strong><span>{{secondPlayer}}'s Challenge: </span></strong>{{challenge}}</p>
+		</div>
+
+		<div class="referee">
+			<p id="refText"><strong><span>Referee: </span></strong>{{referee}}</p>
+			<p id="refText"><strong><span>Participants: </span></strong>{{adminPlayer}}, {{secondPlayer}}</p>
+		</div>
+
+		<div class="dayPrice">
+			<p id="refText"class="betPrice"><strong><span>Bet Price: </span></strong>{{price}} dollars</p>
+			<p id="refText"><strong><span>Judgement Day: </span></strong>Aug 30 2016<!-- {{judgmentDay}} --></p>
+		</div>
+	</div>
+</div>

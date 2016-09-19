@@ -1,0 +1,37 @@
+{
+  "name": "group2-bet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eHatz/group2-Bet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eHatz/group2-Bet/issues"
+  },
+  "homepage": "https://github.com/eHatz/group2-Bet#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.1.0",
+    "connect-session-sequelize": "^3.1.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "redis": "^2.6.2",
+    "sequelize": "^3.24.1",
+    "sequelize-isunique-validator": "^1.1.1"
+  }
+}

@@ -1,0 +1,32 @@
+<div class="betBox" id="ownerBet">
+	<div class="betOwnerPic">
+		<img class="betOwnerPic" src="{{adminImageLink}}">
+	</div>
+	<div class="betInfo">
+		<div class="usrInfo">
+				<h5 class="usrName"><strong><span id="captain">CAPTAIN: </span></strong>{{adminPlayer}}</h5>
+
+				<form method="POST" action="/bet-delete/{{id}}" class="form-horizontal betResForm">
+					<button type="submit" value='bet-delete' name='betDelete' class="btn btn-default">Delete</button>
+				</form>
+{{!-- 
+				<button class="acceptBetButton">You're On!</button>
+				<button class="declineBetButton">No Way Man!</button> --}}
+		</div>
+
+		<div class="prediction">
+			<p id="betInput"><strong><span>{{adminPlayer}}'s Prediction: </span></strong>{{prediction}}</p>
+			<p><strong><span>{{secondPlayer}}'s Challenge: </span></strong>{{challenge}}</p>
+		</div>
+
+		<div class="referee">
+			<p><strong><span>Referee: </span></strong>{{referee}}</p>
+			<p><strong><span>Participants: </span></strong>{{adminPlayer}}, {{secondPlayer}}</p>
+		</div>
+
+		<div class="dayPrice">
+			<p class="betPrice"><strong><span>Bet Price: </span></strong>{{price}} dollars</p>
+			<p><strong><span>Judgement Day: </span></strong>Aug 30 2016<!-- {{judgmentDay}} --></p>
+		</div>
+	</div>
+</div>

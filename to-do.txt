@@ -1,0 +1,15 @@
+-Place bets(Tim)
+	-JS logic for betting
+	-bet table
+	-add friends to bets
+	-display bets to ref
+	-let ref judge and close bets
+-Remove a friend
+-Chat functionality(Nat)
+-Partials and HB (Jeananda)
+	-Search
+	-Friends
+	-Accepting bets
+	-Accepting ref duties
+	-Closing bets
+	-Profile page

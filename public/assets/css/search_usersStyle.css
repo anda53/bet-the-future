@@ -1,0 +1,140 @@
+html {
+	height: 100%;
+	background: url('home_background.png') no-repeat;
+	background-size: cover;
+}
+
+body{
+	background-color: transparent;
+}
+/*#trendingDiv {
+    border-radius: 5px;
+    background: white;
+    background-color: transparent
+    padding: 20px;
+    width: 55%;
+    height: 75px;
+    margin-top: 13%;
+    opacity: .6;
+    margin-left: 25%;
+}*/
+
+h5{
+	color: #00bbba;
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+
+#navBar{
+    background-image: url("../images/nav_background.png");
+    
+    position: absolute;
+    width: 100%;
+    float: right;
+   /* margin-top: 15px;*/
+
+}
+
+#navbarBox{
+/*  width: 1100px;*/
+    
+
+    margin-left:initial;
+    margin-right: initial;
+
+}
+.logo{
+    width: 150px;
+    padding: 9px;
+    margin-left: -10px
+}
+   .navbar-default {
+    border-color: transparent;
+}
+ul{
+    float: right;
+    margin-top: 30px;
+}
+.nav-pills>li.active>a{
+    background-color: #f9891a;
+}
+a {
+    color: #673a03;
+    font-weight: bold;
+
+}
+.cloudDiv{
+    background-image: url("../images/profileCloud.png");
+    background-position: -100% 0%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translateY(-50%);
+    top:80%;
+    width: 900px;
+    height: 1000px;
+    margin-left: 15%;
+   
+}
+#searchBar{
+	margin-left: 150%;
+	margin-top: -45%;
+	
+
+}
+#search{
+	margin-left: 180%;
+	margin-top: -47%;
+}
+.getFriends{
+	font-family: 'Fascinate Inline', cursive;
+	color: #683b00;
+	letter-spacing: -1px;
+	margin-left: 35%;
+	margin-top: 13%;
+ 
+}
+
+
+
+.friendName{
+    font-weight: bold;
+    font-size: 14px;
+    color: #00bbba;
+    
+}   
+.getFriendsButton{
+
+    margin-bottom: 50px;
+    background-color: #f9891a
+
+}
+
+
+.usrPic{
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2px;
+    border-radius: 10px;
+    border: 2px solid #00bbba;
+
+
+}
+.results{
+    margin-bottom: 14%;
+    width: 442px;
+    height: 120px;
+    margin-left: 38%;
+
+}
+
+
+
+
+
+
+
+
